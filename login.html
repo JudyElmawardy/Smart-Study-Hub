@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Study Hub - Login</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <img src="smart_study.png" alt="logo">
+        <h1>Smart Study Hub</h1>
+    </header>
+
+    <!-- Auth Container -->
+    <div class="auth-container">
+        
+        <!-- Login Form -->
+        <div class="auth-form" id="login-form">
+            <h2>Welcome Back!</h2>
+            <p class="auth-subtitle">Log in to continue your study journey</p>
+            
+            <form id="login-form-submit">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" placeholder="Enter your password" required>
+                </div>
+                
+                <button type="submit" class="auth-button">Log In</button>
+            </form>
+            
+            <p class="auth-switch">
+                Don't have an account? 
+                <a href="#" id="show-signup">Sign Up</a>
+            </p>
+        </div>
+
+        <!-- Sign Up Form -->
+        <div class="auth-form hidden" id="signup-form">
+            <h2>Create Account</h2>
+            <p class="auth-subtitle">Start your study journey today!</p>
+            
+            <form id="signup-form-submit">
+                <div class="form-group">
+                    <label for="signup-name">Full Name</label>
+                    <input type="text" id="signup-name" placeholder="Enter your name" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" placeholder="Enter your email" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" placeholder="Create a password" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="signup-confirm-password">Confirm Password</label>
+                    <input type="password" id="signup-confirm-password" placeholder="Confirm your password" required>
+                </div>
+                
+                <button type="submit" class="auth-button">Sign Up</button>
+            </form>
+            
+            <p class="auth-switch">
+                Already have an account? 
+                <a href="#" id="show-login">Log In</a>
+            </p>
+        </div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Smart Study Hub | Contact: info@smartstudy.com</p>
+        <p>Follow us: 📘 📧 📌</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="auth.js"></script>
+</body>
+</html>
+</html>

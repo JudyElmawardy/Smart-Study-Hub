@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quotes | Smart Study Hub</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <img src="smart_study.png" alt="logo">
+    <h1>Smart Study Hub</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="quotes.html">Quotes</a>
+      <a href="timer.html">Timer</a>
+      <a href="about.html">About</a>
+    </nav>
+  </header>
+
+  <!-- Quote Card -->
+  <main class="quote-card">
+    <div id="quoteText" class="quote-text">Loading quote…</div>
+    <div id="quoteAuthor" class="quote-author"></div>
+    <div class="controls">
+      <button id="nextBtn" type="button">Next Quote</button>
+      <button id="shareBtn" type="button">Copy</button>
+    </div>
+    <p class="small">
+      Quotes provided by 
+      <a href="https://quotable.io" target="_blank">Quotable API</a>.
+    </p>
+  </main>
+
+  <!-- Floating Decorative Icons -->
+  <div class="floating-icon icon-1">📚</div>
+  <div class="floating-icon icon-2">💡</div>
+  <div class="floating-icon icon-3">✨</div>
+  <div class="floating-icon icon-4">📖</div>
+  <div class="floating-icon icon-5">🌟</div>
+  <div class="floating-icon icon-6">💭</div>
+  <div class="floating-icon icon-7">🎯</div>
+  <div class="floating-icon icon-8">🔖</div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Smart Study Hub | Contact: info@smartstudy.com</p>
+    <p>Follow us: 📘 📧 📌</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+  <script src="protect.js"></script>
+  <script src="quotes.js"></script>
+</body>
+</html>
