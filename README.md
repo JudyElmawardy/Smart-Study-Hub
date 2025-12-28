@@ -50,8 +50,8 @@ CREATE TABLE users (
 
 ## Team
 
-- Judy Kamal (320240043) - Frontend Developer, UI/UX Designer
-- Jana Amr (320240028) - Frontend Developer, UI/UX Designer
+- Judy Kamal
+- Jana Amr
 
 ## License
 
